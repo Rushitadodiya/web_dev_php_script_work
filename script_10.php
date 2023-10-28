@@ -1,6 +1,5 @@
-<?php
-		$NAME="John";
-		$AGE=25;
-		echo "Hello !".$NAME." ! You are ".$AGE." year old.";
-
-?>
+<?php  
+ $length = 14;  
+ $width = 12;  
+ echo "area of rectangle is $length * $width= " . ($length * $width) . "<br />";  
+  ?>  

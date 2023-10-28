@@ -1,27 +1,13 @@
-
-
-<style>
-	#a1
-	{
-		display: flex;
-	}
-	#a2
-	{
-		margin-left: 2em;
-		display: flex;
-	}
-	#a3
-	{
-		margin-left: 4em;
-		display: flex;
-	}
-</style>
 <?php
+$n = 100;
+$i = 1;
+$sum = 0;
 
+//calculating sum from 1 to n
+while($i <= $n) {
+  $sum += $i;
+  $i++;
+}
 
-echo"<ol>
-			<li id=a1>list1</li>
-			<li id=a2>list2</li>
-			<li id=a3>list3</li>
-	</ol>";
+echo "Sum is: $sum";
 ?>

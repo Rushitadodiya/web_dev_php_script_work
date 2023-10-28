@@ -1,6 +1,13 @@
-<?php
 
-	$num1=42;
-	$str="Hello";
-	echo "The value of num1 is ".$num1." and str is ".$str.".";
+<?php
+$number=526545;
+ 
+if($number%2==0)  
+{  
+ echo "$number is Even Number";   
+}  
+else  
+{  
+ echo "$number is Odd Number";  
+}   
 ?>
